@@ -1,8 +1,39 @@
-# React + Vite
+# Web Converter PNG to PDF
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![thumbnail (1)](https://github.com/user-attachments/assets/a9389724-61fe-4557-a642-feb3e1bbceeb)
 
-Currently, two official plugins are available:
+This project is a minimal setup to convert PNG images to PDF files using React, Vite, Tailwind CSS, and pdf-lib. It provides a fast development environment with Vite, modern styling with Tailwind CSS, and powerful PDF manipulation with pdf-lib.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [Example Code](#example-code)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Features
+
+- Fast development with [Vite](https://vitejs.dev/).
+- Modern styling with [Tailwind CSS](https://tailwindcss.com/).
+- PDF generation from PNG images using [pdf-lib](https://pdf-lib.js.org/).
+
+## Getting Started
+
+To get started with this project, follow the instructions below to set up your development environment, install dependencies, and run the project.
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/web-converter-png-to-pdf.git
+   cd web-converter-png-to-pdf
+2. **Npm Install Node Modules
+   ```bash
+   npm install
+   npm install pdf-lib
+   npm run dev
